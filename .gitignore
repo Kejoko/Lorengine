@@ -1,0 +1,14 @@
+# Gitignore for Lorengine
+
+# Ignore macOS files
+
+# Ignore linux files
+
+# Ignore all object files
+*.o
+
+# Ignore Lorengine executable
+Lorengine
+
+# Ignore outputs in the destination directory
+destination/
