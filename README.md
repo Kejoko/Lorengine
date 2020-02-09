@@ -8,8 +8,8 @@ A map will be created allowing for visualization of the world.
 
 
 ## Build Instructions
-1. Ensure you have [CMake](https://cmake.org/) installed on your machine (a guide may be found [here](https://cmake.org/install/))
-2. Clone the repository to your machine
+1. Ensure you have [CMake](https://cmake.org/) installed on your machine (a guide may be found [here](https://cmake.org/install/)).
+2. Clone the repository to your machine (a guide may be found [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)).
 3. Open a terminal/command prompt (or your preferred shell) at the Lorengine folder.
 4. Type "cmake ." into the your shell and hit enter.
 5. Type "make" into your shell and hit enter.
