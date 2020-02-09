@@ -4,8 +4,17 @@
 
 # Ignore linux files
 
+# Ignore misc cmake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
 # Ignore all object files
 *.o
+
+# Ignore all library files
+*.a
 
 # Ignore Lorengine executable
 Lorengine
