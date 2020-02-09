@@ -9,6 +9,7 @@ CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
 Makefile
+makefile
 
 # Ignore all object files
 *.o
