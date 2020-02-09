@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-#include "lib/Being.h"
+#include "lib/all_includes.h"
 
 int main() {
 	std::cout << "Welcome to Lorengine!\n";

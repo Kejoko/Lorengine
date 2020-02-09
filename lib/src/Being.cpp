@@ -2,7 +2,7 @@
  */
 
 #include <string>
-#include "Being.h"
+#include "../Being.h"
 
 void Being::set_species(std::string species) {
     (*this).species = species;
