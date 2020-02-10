@@ -19,6 +19,13 @@
 
 
 
+/*  ----- ----- Event headers ----- ----- */
+#include "Event.h"
+
+/*  ----- ----- end Event headers ----- ----- */
+
+
+
 /*  ----- ----- Item headers ----- ----- */
 #include "Item.h"
 
@@ -46,5 +53,12 @@
 #include "Plant.h"
 
 /*  ----- ----- end Plant headers ----- ----- */
+
+
+
+/*  ----- ----- Title headers ----- ----- */
+#include "Title.h"
+
+/*  ----- ----- end Title headers ----- ----- */
 
 #endif /* ALL_INCLUDE_H_INCLUDE */
