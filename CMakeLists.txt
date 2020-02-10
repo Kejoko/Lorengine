@@ -16,6 +16,10 @@ file(GLOB lib_history_files
 	"lib/history/src/locations/*.cpp"
 
 	"lib/history/src/organizations/*.cpp"
+	"lib/history/src/organizations/governments/*.cpp"
+	"lib/history/src/organizations/governments/autocracies/*.cpp"
+	"lib/history/src/organizations/governments/democracies/*.cpp"
+	"lib/history/src/organizations/governments/oligarchies/*.cpp"
 	"lib/history/src/organizations/ideologies/*.cpp"
 	"lib/history/src/organizations/ideologies/religions/*.cpp"
 

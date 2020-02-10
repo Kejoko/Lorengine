@@ -8,7 +8,7 @@
 
 #include "../School.h"
 
-class School : virtual public Organization {
+class Church : public School {
     
 };
 
