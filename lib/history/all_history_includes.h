@@ -33,7 +33,10 @@
 
 /*  ----- ----- Location headers ----- ----- */
 #include "Location.h"
+#include "locations/Biome.h"
 #include "locations/Building.h"
+#include "locations/Continent.h"
+#include "locations/Realm.h"
 #include "locations/Settlement.h"
 
 /*  ----- ----- end Location headers ----- ----- */
