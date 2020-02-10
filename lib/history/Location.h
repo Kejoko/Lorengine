@@ -6,8 +6,18 @@
 #ifndef LOCATION_H_INCLUDE
 #define LOCATION_H_INCLUDE
 
-class Location {
+#include <string>
 
+class Location {
+public:
+    int creation_year;
+    int creation_month;
+    int creation_day;
+    int destruction_year;
+    int destructionn_month;
+    int destruction_day;
+    std::string name;
+    
 };
 
 #endif /* LOCATION_H_INCLUDE */
