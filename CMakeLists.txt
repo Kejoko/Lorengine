@@ -16,6 +16,8 @@ file(GLOB lib_history_files
 	"lib/history/src/locations/*.cpp"
 
 	"lib/history/src/organizations/*.cpp"
+	"lib/history/src/organizations/ideologies/*.cpp"
+	"lib/history/src/organizations/ideologies/religions/*.cpp"
 
 	"lib/history/src/plants/*.cpp"
 

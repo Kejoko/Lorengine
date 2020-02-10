@@ -8,9 +8,7 @@
 
 /*  ----- ----- Being headers ----- ----- */
 #include "Being.h"
-
 #include "beings/Sentient.h"
-
 #include "beings/Bipedal.h"
 #include "beings/bipedals/Humanoid.h"
 #include "beings/bipedals/humanoids/Man.h"
@@ -43,7 +41,15 @@
 /*  ----- ----- Organization headers ----- ----- */
 #include "Organization.h"
 
+#include "organizations/Culture.h"
 #include "organizations/Family.h"
+#include "organizations/Guild.h"
+#include "organizations/Ideology.h"
+#include "organizations/ideologies/Religion.h"
+#include "organizations/ideologies/religions/Monotheism.h"
+#include "organizations/ideologies/religions/Polytheism.h"
+#include "organizations/School.h"
+#incluee "organizations/schools/Church.h"
 
 /*  ----- ----- end Organization headers ----- ----- */
 

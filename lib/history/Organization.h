@@ -20,9 +20,10 @@ public:
     int end_year;
     int end_month;
     int end_day;
-    Being* founder;
-    std::vector<Being*> members;
+    std::vector<Being*> founders;
     Location* origin;
+    std::vector<Being*> members;
+    Location* headquarters;
 };
 
 #endif /* ORGANIZATION_H_INCLUDE */
