@@ -33,6 +33,8 @@
 
 /*  ----- ----- Location headers ----- ----- */
 #include "Location.h"
+#include "locations/Building.h"
+#include "locations/Settlement.h"
 
 /*  ----- ----- end Location headers ----- ----- */
 
