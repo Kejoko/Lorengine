@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.14)
 
-add_compile_options(-std=c++17 -Wall -Wpedantic -Wextra -Werror -g)
+add_compile_options(-std=c++17 -Wall -Wpedantic -Wextra -g)
 
 file(GLOB lib_files
 	"lib/src/*.cpp"

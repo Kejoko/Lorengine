@@ -9,6 +9,12 @@
 /*  ----- ----- Being headers ----- ----- */
 #include "Being.h"
 
+#include "beings/Sentient.h"
+
+#include "beings/Bipedal.h"
+#include "beings/bipedals/Humanoid.h"
+#include "beings/bipedals/humanoids/Man.h"
+
 /*  ----- ----- end Being headers ----- ----- */
 
 
@@ -29,6 +35,8 @@
 
 /*  ----- ----- Organization headers ----- ----- */
 #include "Organization.h"
+
+#include "organizations/Family.h"
 
 /*  ----- ----- end Organization headers ----- ----- */
 
