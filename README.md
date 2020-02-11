@@ -14,3 +14,14 @@ A map will be created allowing for visualization of the world.
 4. Type "cmake ." into the your shell and hit enter.
 5. Type "make" into your shell and hit enter.
 6. All done! An executable, Lorengine, and a static library, lore_lib.a, should now be created.
+
+
+
+
+
+
+#### A bet between the creators
+How large will the resulting library file, lore_lib.a, be when successful world is generation (history, rendered planet) is achieved?
+- L: 100mb
+- K: 40mb
+The loser of this bet must eat something of the winner's choice. The food presented must be within reason and must contain only edible foods obtained at a supermarket or a reputable source.
