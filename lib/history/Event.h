@@ -6,6 +6,8 @@
 #ifndef EVENT_H_INCLUDE
 #define EVENT_H_INCLUDE
 
+#include "../Calendar.h"
+
 #include "Location.h"
 
 class Event {

@@ -11,8 +11,11 @@
 class Being {
 public:
     std::string species;
-    void set_species(std::string);
+    
     std::string get_species();
+    
+    void set_species(std::string);
+    
 };
 
 #endif /* BEING_H_INCLUDE */

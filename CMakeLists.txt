@@ -2,6 +2,11 @@ cmake_minimum_required(VERSION 3.14)
 
 add_compile_options(-std=c++17 -Wall -Wpedantic -Wextra -g)
 
+file(GLOB world_files
+	"lib/*.cpp"
+
+)
+
 file(GLOB lib_history_files
 	"lib/history/src/*.cpp"
 
@@ -38,6 +43,6 @@ file(GLOB lib_wiki_files
 
 project(Lorengine)
 
-add_library(lore_lib ${lib_history_files})
+add_library(lore_lib ${world_files} ${lib_history_files})
 add_executable(Lorengine main.cpp)
 target_link_libraries(Lorengine lore_lib)
