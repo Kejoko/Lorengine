@@ -20,7 +20,7 @@ A map will be created allowing for visualization of the world.
 
 
 
-#### A bet between the creators
+#### A friendly wager
 How large will the resulting library file, lore_lib.a, be when successful world is generation (history, rendered planet) is achieved?
 - L: 100mb
 - K: 40mb
