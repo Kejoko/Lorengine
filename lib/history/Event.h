@@ -12,8 +12,8 @@
 
 class Event {
 public:
-    Calendar::Date start_date;
-    Calendar::Date end_date;
+    Day start_date;
+    Day end_date;
     Location* start_location;
     Location* end_location;
 };

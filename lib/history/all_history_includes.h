@@ -10,6 +10,10 @@
 
 /*  ----- ----- Top level headers ----- ----- */
 #include "../Calendar.h"
+#include "../Day.h"
+#include "../Era.h"
+#include "../Month.h"
+#include "../Year.h"
 
 /*  ----- ----- end top level headers ----- ----- */
 

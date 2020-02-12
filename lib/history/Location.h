@@ -12,8 +12,8 @@
 
 class Location {
 public:
-    Calendar::Date creation_date;
-    Calendar::Date destruction_date;
+    Day creation_date;
+    Day destruction_date;
     std::string name;
     
 };

@@ -9,38 +9,35 @@
 #include <string>
 #include <vector>
 
+#include "Era.h"
+#include "Year.h"
+#include "Month.h"
+#include "Day.h"
+
 class Event;
 
 class Calendar {
 private:
-    static int era;
-    static int year;
-    static int month;
-    static int day;
-    static std::vector<std::string> era_names;
-    static std::vector<Event*> era_distinguishers;
+    Era* current_era;
+    Year* current_year;
+    Month* current_month;
+    Day* current_day;
+    std::vector<Era*> eras;
+    std::vector<Year*> years;
+    std::vector<Month*> months;
+    std::vector<Day*> days;
     
 public:
-
-    class Date {
-    public:
-        const int era;
-        const int year;
-        const int month;
-        const int day;
-        
-        void set_era(int);
-        void set_year(int);
-        void set_month(int);
-        void set_day(int);
-    };
-
     class Duration {
+    private:
+        Day* start_date;
+        Day* end_date;
     public:
-        int eras;
-        int years;
-        int months;
-        int days;
+        void set_start_date(Day*);
+        void set_end_date(Day*);
+        
+        Day* get_start_date();
+        Day* get_end_date();
     };
     
     int get_era();
@@ -58,7 +55,7 @@ public:
     void increment_month();
     void increment_day();
     
-    Duration calculate_duration(Date, Date);
+    Duration calculate_duration(Day*, Day*);
 };
 
 #endif /* CALENDAR_H_INCLUDE */

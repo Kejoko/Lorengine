@@ -16,8 +16,8 @@
 
 class Sentient : virtual public Being {
 public:
-    Calendar::Date birth_date;
-    Calendar::Date death_date;
+    Day birth_date;
+    Day death_date;
     Location* birth_place;
     Location* death_place;
     Location* resting_place;
@@ -43,7 +43,7 @@ public:
     
     
     
-    Sentient(Calendar::Date);
+    Sentient(Day);
     void kill();
     void change_location();
     void generate_personality();

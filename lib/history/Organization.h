@@ -18,8 +18,8 @@
 class Organization {
 public:
     std::string name;
-    Calendar::Date start_date;
-    Calendar::Date end_date;
+    Day start_date;
+    Day end_date;
     std::vector<Being*> founders;
     Location* origin;
     std::vector<Being*> members;
