@@ -6,7 +6,10 @@
 #ifndef ORGANIZATION_H_INCLUDE
 #define ORGANIZATION_H_INCLUDE
 
+#include <string>
 #include <vector>
+
+#include "../Calendar.h"
 
 #include "Being.h"
 
@@ -14,12 +17,9 @@
 
 class Organization {
 public:
-    int start_year;
-    int start_month;
-    int start_day;
-    int end_year;
-    int end_month;
-    int end_day;
+    std::string name;
+    Calendar::Date start_date;
+    Calendar::Date end_date;
     std::vector<Being*> founders;
     Location* origin;
     std::vector<Being*> members;

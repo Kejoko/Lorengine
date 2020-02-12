@@ -9,8 +9,6 @@
 #include <string>
 #include <vector>
 
-#include "history/Event.h"
-
 class Event;
 
 class Calendar {
@@ -23,6 +21,7 @@ private:
     static std::vector<Event*> era_distinguishers;
     
 public:
+
     class Date {
     public:
         const int era;
@@ -35,7 +34,7 @@ public:
         void set_month(int);
         void set_day(int);
     };
-    
+
     class Duration {
     public:
         int eras;

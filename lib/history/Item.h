@@ -7,7 +7,7 @@
 #define ITEM_H_INCLUDE
 
 class Item {
-    
+    //  Uniqueness, date created, date destroyed, owner, creator, destroyer
 };
 
 #endif /* ITEM_H_INCLUDE */

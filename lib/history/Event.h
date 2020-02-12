@@ -12,12 +12,8 @@
 
 class Event {
 public:
-    int start_year;
-    int start_month;
-    int start_day;
-    int end_year;
-    int end_month;
-    int end_day;
+    Calendar::Date start_date;
+    Calendar::Date end_date;
     Location* start_location;
     Location* end_location;
 };

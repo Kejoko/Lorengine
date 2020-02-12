@@ -8,14 +8,12 @@
 
 #include <string>
 
+#include "../Calendar.h"
+
 class Location {
 public:
-    int creation_year;
-    int creation_month;
-    int creation_day;
-    int destruction_year;
-    int destructionn_month;
-    int destruction_day;
+    Calendar::Date creation_date;
+    Calendar::Date destruction_date;
     std::string name;
     
 };

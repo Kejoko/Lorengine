@@ -41,6 +41,17 @@ public:
     
     /* Characteristics */
     
+    
+    
+    Sentient(Calendar::Date);
+    void kill();
+    void change_location();
+    void generate_personality();
+    void generate_flaw();
+    void generate_motivation();
+    void generate_characteristics();
+    void timestep_month();
+    
 };
 
 #endif /* SENTIENT_H_INCLUDE */
