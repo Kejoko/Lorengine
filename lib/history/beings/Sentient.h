@@ -33,24 +33,20 @@ public:
     bool thinker;   //  Thinker or Feeler (T/F)
     bool judger;    //  Judger or Perciever (J/P)
     
-    /* Fatal flaw */
-    
-    
-    /* Motivation */
-    
+    /* Weaknesses */
+    bool weakness[7];   //  Envy, rage, greed, sloth, pride, gluttony. lust
     
     /* Characteristics */
+    /* Personallity Traits */
     
     
     
-    Sentient(Day);
+    Sentient(Day*);
+    
     void kill();
     void change_location();
     void generate_personality();
-    void generate_flaw();
-    void generate_motivation();
-    void generate_characteristics();
-    void timestep_month();
+    void generate_weakness();
     
 };
 

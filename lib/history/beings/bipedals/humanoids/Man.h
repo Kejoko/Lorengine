@@ -26,6 +26,7 @@ class Man : public Humanoid, public Sentient {
 public:
     std::string first_name;
     std::string family_name;
+    std::string former_family_name;
     std::string surname;
     std::string nick_name;
     Title title;
@@ -42,6 +43,13 @@ public:
     Organization* workplace;
     Title job;
     
+    Man();
+    Man(Man*, Man*);
+    
+    void grow_day();
+    
 };
+
+Man* create_child(Man*, Man*);
 
 #endif /* MAN_H_INCLUDE */
