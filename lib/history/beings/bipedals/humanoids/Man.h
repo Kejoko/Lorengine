@@ -34,23 +34,10 @@ public:
     Man* birth_mother;
     Man* true_father;
     Man* true_mother;
-    Man* murderer;
-    
-    int birth_year;
-    int birth_month;
-    int birth_date;
-    Location* birth_place;
-    int death_year;
-    int death_month;
-    int death_date;
-    Location* death_place;
-    Location* resting_place;
     
     std::string race;
     int height;
-    int age;
     
-    Location* current_location;
     Organization* workplace;
     Title job;
     

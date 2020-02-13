@@ -6,16 +6,14 @@
 #ifndef EVENT_H_INCLUDE
 #define EVENT_H_INCLUDE
 
+#include "../Calendar.h"
+
 #include "Location.h"
 
 class Event {
 public:
-    int start_year;
-    int start_month;
-    int start_day;
-    int end_year;
-    int end_month;
-    int end_day;
+    Day start_date;
+    Day end_date;
     Location* start_location;
     Location* end_location;
 };

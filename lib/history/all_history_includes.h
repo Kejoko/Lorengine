@@ -6,6 +6,19 @@
 #ifndef ALL_INCLUDE_H_INCLUDE
 #define ALL_INCLUDE_H_INCLUDE
 
+
+
+/*  ----- ----- Top level headers ----- ----- */
+#include "../Calendar.h"
+#include "../Day.h"
+#include "../Era.h"
+#include "../Month.h"
+#include "../Year.h"
+
+/*  ----- ----- end top level headers ----- ----- */
+
+
+
 /*  ----- ----- Being headers ----- ----- */
 #include "Being.h"
 #include "beings/Sentient.h"
