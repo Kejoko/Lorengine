@@ -31,6 +31,8 @@ file(GLOB lib_history_files
 	"lib/history/src/plants/*.cpp"
 
 	"lib/history/src/titles/*.cpp"
+
+	"lib/history/helpers/*.cpp"
 )
 
 file(GLOB lib_map_files

@@ -20,6 +20,8 @@
 
 #include "../../../Title.h"
 
+#include "../../../helpers/Physical_Attributes.h"
+
 class Man : public Humanoid, public Sentient {
 public:
     std::string first_name;
@@ -35,8 +37,7 @@ public:
     Man* true_father;
     Man* true_mother;
     
-    std::string race;
-    int height;
+    Physical_Attributes phys_attributes;
     
     Organization* workplace;
     Title job;
