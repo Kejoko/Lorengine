@@ -27,11 +27,12 @@ public:
     
     Location* current_location;
     
-    /*  Myers Briggs Personality Type */
-    bool introvert; //  Introvert or Extrovert (I/E)
-    bool sensor;    //  Sensor or Intuitive (S/N)
-    bool thinker;   //  Thinker or Feeler (T/F)
-    bool judger;    //  Judger or Perciever (J/P)
+    /*  Big 5 Personality Traits */
+    bool outgoing;
+    bool challenging;
+    bool confident;
+    bool cautious;
+    bool organized;
     
     /* Weaknesses */
     bool weakness[7];   //  Envy, rage, greed, sloth, pride, gluttony. lust
